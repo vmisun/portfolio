@@ -47,6 +47,15 @@ h3 {
   border: 5px solid var(--img-border-color);
 }
 
+.dropdown-menu {
+  background: #43014e;
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 5px 16px;
+}
+
 .nav-link {
   color: #fff;
 }

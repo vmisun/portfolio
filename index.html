@@ -42,62 +42,61 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"
-              ><i class="fa-solid fa-bars"></i
-            ></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul
-              class="navbar-nav container d-flex justify-content-end align-items-center"
-            >
-              <div class="row">
-                <div class="col-4">
-                  <li class="p-2 nav-item active">
-                    <a class="nav-link" href="/"
-                      >Home<span class="sr-only">(current)</span></a
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active p-2">
+                <a class="nav-link" href="/"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item dropdown p-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >About me</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="/about.html">About me</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/about.html#contact"
+                      >Contact me</a
                     >
                   </li>
-                </div>
-                <div class="col-4">
-                  <li class="p-2 nav-item">
-                    <a class="nav-link" href="/about.html#contact">Hire me</a>
+                  <li>
+                    <a class="dropdown-item" href="/about.html#certificates"
+                      >Certificates</a
+                    >
                   </li>
-                </div>
-                <div class="col-4">
-                  <li class="p-2 nav-item dropdown">
+                  <li>
                     <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >About me</a
+                      class="dropdown-item"
+                      href="https://github.com/vmisun"
+                      target="_blanck"
+                      >GitHub</a
                     >
-                    <div
-                      class="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink"
-                    >
-                      <a class="dropdown-item" href="/about.html">About me</a>
-                      <a class="dropdown-item" href="/about.html#contact"
-                        >Contact me</a
-                      >
-                      <a class="dropdown-item" href="/about.html#certificates"
-                        >Certificates</a
-                      >
-                      <a
-                        class="dropdown-item"
-                        href="https://github.com/vmisun"
-                        target="_blanck"
-                        >GitHub</a
-                      >
-                      <a class="dropdown-item" href="/projects.html"
-                        >My projects</a
-                      >
-                    </div>
                   </li>
-                </div>
-              </div>
+                  <li>
+                    <a class="dropdown-item" href="/projects.html"
+                      >My projects</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="/about.html#contact">Hire me</a>
+              </li>
             </ul>
           </div>
         </div>
