@@ -12,39 +12,62 @@ body {
   font-family: var(--main-font);
 }
 
+nav {
+  background-color: rgb(23, 0, 27);
+}
+
 h1 {
   font-family: var(--heading-font);
-  font-size: 55px;
+  font-size: 75px;
 }
 
 h2 {
-  font-size: 28px;
-  opacity: 0.8;
+  margin-left: 5px;
+  color: rgba(212, 0, 255, 0.8);
+  font-size: 23px;
 }
 
 h3 {
+  font-family: var(--heading-font);
   margin-left: 5px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-img {
-  border-radius: 20px;
-  border: 5px solid var(--img-border-color);
-}
-
-.homepage-photo {
-  max-width: 80%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.page {
+.background {
   background-color: var(--background-color);
 }
 
 .hero {
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 360px;
+}
+
+.hero img {
+  border-radius: 20px;
+  border: 5px solid var(--img-border-color);
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:focus {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.homepage-photo {
+  width: auto;
+  max-height: 450px;
+  margin: 0 auto;
 }
 
 .email-btn {
@@ -70,7 +93,7 @@ img {
   }
 
   .homepage-photo {
-    margin-top: 30px;
+    max-width: 80%;
   }
 }
 
@@ -87,8 +110,10 @@ img {
   h3 {
     font-size: 20px;
   }
+}
 
-  .homepage-photo {
-    margin-top: 30px;
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
   }
 }
