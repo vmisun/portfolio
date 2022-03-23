@@ -23,6 +23,7 @@ h2 {
 }
 
 h3 {
+  margin-left: 5px;
   font-size: 25px;
 }
 
@@ -37,16 +38,57 @@ img {
   margin: 0 auto;
 }
 
-.hero {
+.page {
   background-color: var(--background-color);
-  padding-top: 150px;
+}
+
+.hero {
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 
-.hero .email-btn {
+.email-btn {
   color: #fff;
   font-size: 14px;
   padding: 12px 17px;
   background-color: var(--btn-contact-color);
   border-radius: 13px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 23px;
+    margin-left: 0;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .homepage-photo {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .homepage-photo {
+    margin-top: 30px;
+  }
 }
