@@ -12,7 +12,20 @@ body {
   font-family: var(--main-font);
 }
 
-nav {
+/* -----------------------style the dropdoen menu here */
+.dropdown-menu { 
+  background: var(--background-color);
+}
+
+.dropdown-item { 
+  color: white;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  
+}
+
+/* ------------------------ end of dropdown menu style */
+
+.navbar {
   background-color: rgb(23, 0, 27);
 }
 
