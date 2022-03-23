@@ -76,13 +76,13 @@ h3 {
 .homepage-photo {
   width: auto;
   max-height: 450px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .email-btn {
   color: #fff;
-  font-size: 14px;
-  padding: 12px 17px;
+  font-size: 16px;
+  padding: 15px 20px;
   background-color: var(--btn-contact-color);
   border-radius: 13px;
 }
@@ -103,6 +103,7 @@ h3 {
 
   .homepage-photo {
     max-width: 80%;
+    margin-top: 60px;
   }
 }
 
@@ -118,6 +119,15 @@ h3 {
 
   h3 {
     font-size: 20px;
+  }
+
+  .homepage-photo {
+    margin-top: 70px;
+  }
+
+  .email-btn {
+    font-size: 14px;
+    padding: 12px 17px;
   }
 }
 
