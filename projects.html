@@ -4,7 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/923d56e56c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/src/styles.css" rel="stylesheet" type="text/css" />
+    <title>Homepage - Karolina Gniadzik</title>
   </head>
-  <body></body>
+  <body>
+    <div class="background">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+        <div class="container">
+          <img class="navbar-brand logo" src="/media/logo.PNG" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item p-2">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown p-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >About me</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="/about.html">About me</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/about.html#contact"
+                      >Contact me</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/about.html#certificates"
+                      >Certificates</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/vmisun"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/projects.html"
+                      >My projects</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="/about.html#contact">Hire me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero text-center">
+        <div class="container">
+          <h1 class="projects-header mt-2 mb-5">
+            Take a look at what I've been working on!
+          </h1>
+          <div class="row mt-3">
+            <div class="col-6">
+              <a
+                href="https://competent-carson-7c526d.netlify.app/"
+                target="_blanck"
+                ><img
+                  src="/media/weather-app.jpg"
+                  alt="Weather app - preview"
+                  class="img-fluid projects-preview"
+                />
+                <h3 class="mt-2 mb-1">Weather App Project</h3></a
+              >
+              <p class="text-muted">Built with HTML, CSS and Java Script</p>
+            </div>
+            <div class="col-6">
+              <a href="" target="_blanck">
+                <img
+                  src="/media/mcu-page.jpg"
+                  alt="Page about MCU - preview"
+                  class="img-fluid projects-preview"
+                />
+                <h3 class="mt-2 mb-1">Marvel Project</h3></a
+              >
+              <p class="text-muted">Built with HTML and CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <a
+          href="https://github.com/vmisun/portfolio"
+          title="Source code"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Karolina Gniadzik
+      </footer>
+    </div>
+  </body>
 </html>

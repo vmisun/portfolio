@@ -38,13 +38,21 @@ h4 {
   font-size: 60px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ad00cf;
+}
+
 footer {
   text-align: center;
 }
 
 footer a {
-  text-decoration: none;
-  color: rgb(212, 0, 255);
+  color: #d400ff;
 }
 
 .background {
@@ -59,6 +67,10 @@ footer a {
 .hero img {
   border-radius: 20px;
   border: 5px solid var(--img-border-color);
+}
+
+.projects-header {
+  font-size: 55px;
 }
 
 .dropdown-menu {
@@ -99,12 +111,21 @@ footer a {
   margin: 10px auto;
 }
 
+.projects-preview {
+  width: auto;
+  height: 260px;
+}
+
 .email-btn {
   color: #fff;
   font-size: 16px;
   padding: 15px 20px;
   background-color: var(--btn-contact-color);
   border-radius: 13px;
+}
+
+.email-btn:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 992px) {
