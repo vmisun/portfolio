@@ -33,6 +33,11 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-family: var(--heading-font);
+  font-size: 60px;
+}
+
 footer {
   text-align: center;
 }
@@ -86,6 +91,12 @@ footer a {
   width: auto;
   max-height: 450px;
   margin: 30px auto;
+}
+
+.about-photo {
+  width: auto;
+  max-height: 350px;
+  margin: 10px auto;
 }
 
 .email-btn {
