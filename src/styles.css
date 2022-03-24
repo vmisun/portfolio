@@ -6,10 +6,17 @@
   --img-border-color: rgba(255, 255, 255, 0.2);
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #000000;
+  background-color: #220029;
   color: #fff;
   font-family: var(--main-font);
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 40px;
 }
 
 nav {
@@ -49,19 +56,19 @@ a:hover {
 
 footer {
   text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
 }
 
 footer a {
   color: #d400ff;
 }
 
-.background {
-  background-color: var(--background-color);
-}
-
 .hero {
   padding-top: 100px;
-  padding-bottom: 360px;
 }
 
 .hero img {
