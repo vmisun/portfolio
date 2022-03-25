@@ -1,5 +1,5 @@
 :root {
-  --background-color: rgba(212, 0, 255, 0.16);
+  --background-color: #220029;
   --heading-font: "Secular One", sans-serif;
   --main-font: "Poppins", sans-serif;
   --btn-contact-color: rgba(140, 138, 255, 0.3);
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #220029;
+  background-color: var(--background-color);
   color: #fff;
   font-family: var(--main-font);
   min-height: 100%;
@@ -146,6 +146,32 @@ footer a {
 .contact i {
   font-size: 55px;
   margin-bottom: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon {
+  padding: 0 0 10px;
+}
+
+.carousel-control-next-icon {
+  padding: 20px 0 0;
+}
+
+.carousel {
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  background-color: var(--background-color);
+  opacity: 0.9;
+  padding: 10px 0;
+  border-radius: 20px;
 }
 
 @media (max-width: 992px) {
