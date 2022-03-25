@@ -193,20 +193,17 @@ footer a {
     font-size: 40px;
   }
 
-  .homepage-photo {
-    max-width: 80%;
-    margin-top: 60px;
-  }
-
+  .homepage-photo,
   .about-photo {
     max-width: 80%;
-    margin-top: 20px;
+    margin-top: 60px;
   }
 
   .projects-preview {
     width: 100%;
     height: auto;
   }
+
   .contact {
     max-width: 80%;
     font-size: 20px;
@@ -238,8 +235,12 @@ footer a {
     font-size: 24px;
   }
 
-  .about-heading {
+  .about-header {
     margin-top: 30px !important;
+  }
+
+  .projects-header {
+    font-size: 27px;
   }
 
   .homepage-photo {
