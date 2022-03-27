@@ -109,6 +109,11 @@ footer a {
   height: auto;
 }
 
+.logo:hover {
+  transform: rotate(-90deg);
+  transition: all 200ms ease-in-out;
+}
+
 .homepage-photo {
   width: auto;
   max-height: 450px;
