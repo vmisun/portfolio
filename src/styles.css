@@ -114,6 +114,10 @@ footer a {
   transition: all 200ms ease-in-out;
 }
 
+.logo:not(:hover) {
+  transition: all 200ms ease-in-out;
+}
+
 .homepage-photo {
   width: auto;
   max-height: 450px;
