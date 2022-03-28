@@ -336,4 +336,7 @@ footer a {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
+  .skills {
+    max-width: 80%;
+  }
 }
