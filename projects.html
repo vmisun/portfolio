@@ -31,8 +31,12 @@
   <body>
     <nav class="navbar navbar-expand-md fixed-top navbar-dark">
       <div class="container">
-        <a href="/">
-          <img class="navbar-brand logo" src="/media/logo.PNG" />
+        <a href="/" title="Homepage">
+          <img
+            class="navbar-brand logo"
+            src="/media/logo.PNG"
+            alt="Karolina Logo"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -48,7 +52,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item p-2">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="/" title="Homepage">Home</a>
             </li>
             <li class="nav-item dropdown p-2">
               <a
@@ -59,6 +63,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 aria-current="page"
+                title="About Karolina"
                 >About me</a
               >
               <ul
@@ -66,38 +71,64 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="/about.html">About me</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/about.html#contact"
-                    >Contact me</a
+                  <a
+                    class="dropdown-item"
+                    href="/about.html"
+                    title="About Karolina"
+                    >About me</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/about.html#certificates"
+                  <a
+                    class="dropdown-item"
+                    href="/about.html#certificates"
+                    title="Karolina's certificates"
                     >Certificates</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item"
+                    href="/about.html#contact"
+                    title="Contact to Karolina"
+                    >Contact me</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
                     href="https://github.com/vmisun"
                     target="_blank"
+                    title="Karolina's GitHub"
                     >GitHub</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/projects.html">My projects</a>
+                  <a
+                    class="dropdown-item"
+                    href="/projects.html"
+                    title="Karolina's projects"
+                    >My projects</a
+                  >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/about.html#skills"
+                  <a
+                    class="dropdown-item"
+                    href="/about.html#skills"
+                    title="Karolina's skills"
                     >My skills</a
                   >
                 </li>
               </ul>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link" href="/about.html#contact">Hire me</a>
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Hire Karolina"
+                >Hire me</a
+              >
             </li>
           </ul>
         </div>
@@ -114,9 +145,11 @@
             <a
               href="https://competent-carson-7c526d.netlify.app/"
               target="_blanck"
+              title="Weather app"
               ><img
                 src="/media/weather-app.jpg"
                 alt="Weather app - preview"
+                title="Weather app preview"
                 class="img-fluid projects-preview"
               />
               <h3 class="mt-2 mb-1">Weather App Project</h3></a
@@ -125,6 +158,7 @@
             <a
               href="https://github.com/vmisun/project-weatherapp"
               class="text-muted text-decoration-underline"
+              title="Weather app - view code on GitHub"
               >View code on GitHub</a
             >
           </div>
@@ -132,11 +166,13 @@
             <a
               href="https://marvelous-babka-039cff.netlify.app/"
               target="_blanck"
+              title="MCU page"
             >
               <img
                 src="/media/mcu-page.jpg"
                 alt="Page about MCU - preview"
                 class="img-fluid projects-preview"
+                title="MCU page preview"
               />
               <h3 class="mt-2 mb-1">Marvel Project</h3></a
             >
@@ -144,6 +180,7 @@
             <a
               href="https://github.com/vmisun/marvel"
               class="text-muted text-decoration-underline"
+              title="MCU page - view code on GitHub"
               >View code on GitHub</a
             >
           </div>
@@ -156,6 +193,7 @@
         href="https://github.com/vmisun/portfolio"
         title="Source code"
         target="_blank"
+        title="Karolina's code"
         >Open-source code</a
       >
       by Karolina Gniadzik
