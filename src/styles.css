@@ -160,12 +160,18 @@ footer a {
 
 .grid-container {
   display: grid;
+  margin: 0 auto;
   grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 80px 80px 80px;
+  grid-template-rows: 100px 100px 100px;
   column-gap: 15px;
   row-gap: 15px;
   justify-items: center;
   justify-content: center;
+}
+
+.grid-item {
+  padding: 15px;
+  height: 115px;
 }
 
 .skills img {
@@ -321,5 +327,9 @@ footer a {
   }
   .carousel {
     max-width: 85%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
