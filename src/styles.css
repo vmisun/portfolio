@@ -308,6 +308,10 @@ footer a {
     text-align: center;
   }
 
+  .homepage {
+    padding-top: 80px;
+  }
+
   .homepage-photo {
     margin-top: 20px;
     max-width: 70%;
